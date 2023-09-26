@@ -1,0 +1,92 @@
+
+div.main-body
+{
+display: grid;
+grid-template-columns: minmax(300px,auto)1fr;
+grid-template-areas: "navbar mainContent";
+grid-gap: 20px;
+background-color: rgb(174, 193, 255);
+border-radius: 20px;
+}
+div.form
+{
+font-size: x-large;
+font-weight: bold;
+background-color: rgb(21, 115, 209);
+}
+
+nav#navbar
+{
+grid-area: navbar;
+position:relative;
+border: 3.5px solid black;
+border-radius: 15px;
+padding: 15px;
+background-color: rgb(182, 206, 255);
+}
+
+nav#navbar a
+{
+display: block;
+border: 1px solid black;
+padding: 5px;
+margin : 10px 0;
+color: rgb(5, 28, 76);
+background-color: rgb(253, 221, 221);
+}
+
+main#main-doc
+{
+grid-area: mainContent;
+background-color: lightcyan;
+border: 3.5px solid black;
+padding: 20px;
+border-radius: 20px;
+}
+
+header{
+
+font-size: 1.5rem;
+font-style: italic;
+text-decoration: underline;
+text-rendering: auto;
+font-weight: bold;
+color: rgb(69, 3, 132);
+border-radius: 10px;
+
+}
+
+section#intro {
+background-color: rgb(171, 233, 255);
+}
+
+button#submit
+{
+width: 200px;
+height: 50px;
+align-self: center;
+}
+
+h1{
+color: rgb(4, 4, 117);
+background-color: #bbcfffb1;
+}
+h2{
+color: rgb(7, 29, 111);
+background-color: aliceblue;
+font-style: italic ;
+text-shadow: 1.2px;
+}
+
+header img
+{
+    width: 40px; /* Adjust the width of the logo */
+    height: 40px; /* Adjust the height of the logo */
+    margin-right: 10px; /* Add margin for spacing */
+    border-radius: 100%;
+}
+
+div.button
+{
+    text-align: center;
+}
